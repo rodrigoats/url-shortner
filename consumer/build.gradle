@@ -1,0 +1,18 @@
+plugins {
+    id 'org.springframework.boot' version '3.1.4'
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation project(':common-encrypt')
+}
+
+tasks.named('bootJar') {
+    enabled = true
+}
+
+
+tasks.named('jar') {
+    enabled = false
+}

@@ -1,1 +1,5 @@
 rootProject.name = 'url-shortner'
+include 'api'
+include 'consumer'
+include 'common-encrypt'
+
