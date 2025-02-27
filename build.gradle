@@ -27,9 +27,9 @@ subprojects {
 
 	dependencyManagement {
 		dependencies {
-			dependency 'org.springframework.boot:spring-boot-starter:3.1.4'
-			dependency 'org.springframework.boot:spring-boot-starter-webflux:3.1.4'
-			dependency 'org.springframework.boot:spring-boot-starter-amqp:3.1.4'
+			dependency 'org.springframework.boot:spring-boot-starter:3.4.3'
+			dependency 'org.springframework.boot:spring-boot-starter-web:3.4.3'
+			dependency 'org.springframework.boot:spring-boot-starter-amqp:3.4.3'
 			dependency 'org.junit.jupiter:junit-jupiter:5.8.1'
 		}
 	}
